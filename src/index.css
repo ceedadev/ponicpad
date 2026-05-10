@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --color-healthy: #16a34a;
+  --color-attention: #d97706;
+  --color-overdue: #dc2626;
+}
+
+body {
+  padding-bottom: env(safe-area-inset-bottom);
+  background-color: #f9fafb;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
