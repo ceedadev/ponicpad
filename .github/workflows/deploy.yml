@@ -31,7 +31,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun build ./index.html --outdir=dist
+        run: bun build.ts
 
       - name: Copy public assets
         run: cp public/* dist/
